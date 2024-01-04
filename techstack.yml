@@ -1,7 +1,8 @@
 repo_name: ry-animal/chains
 report_id: 7a131ab449eba8c3d701c43ce9c12f31
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:02:37+00:00'
+timestamp: '2024-01-04T15:06:26+00:00'
 requested_by: Dien-DOS
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ry-animal/chains
   detection_source: Repo Metadata
 - name: Kotlin
   description: Statically typed Programming Language targeting JVM and JavaScript
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/ry-animal/chains
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ry-animal/chains
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -43,7 +47,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/validate_json.yml"
+  detection_source_url: https://github.com/ry-animal/chains/blob/master/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
   last_updated_by: ligi
   last_updated_on: 2023-01-23 07:02:07.000000000 Z
 - name: Gradle
@@ -55,7 +60,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
-  detection_source: gradlew.bat
+  detection_source_url: https://github.com/ry-animal/chains/blob/master/build.gradle
+  detection_source: build.gradle
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-02-20 23:07:48.000000000 Z
 - name: npm
@@ -66,6 +72,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ry-animal/chains/blob/master/tools/package.json
   detection_source: tools/package.json
   last_updated_by: Ashutosh Kumar
   last_updated_on: 2022-08-28 10:25:46.000000000 Z
@@ -79,7 +86,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: tools/package-lock.json
+  detection_source_url: https://github.com/ry-animal/chains/blob/master/tools/package-lock.json
   detection_source: tools/package.json
   last_updated_by: Ashutosh Kumar
   last_updated_on: 2022-08-28 10:25:46.000000000 Z
